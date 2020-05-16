@@ -1,0 +1,4 @@
+		( method_declaration ( statement ( =  a ( variable_initializer_x ( - ( +  4  5 ) 3 )))( statement ( =  d ( variable_initializer_x ( +  3 ( *  4  4 ))))( statement ( =  a  8 )( statement ( =  a ( variable_initializer_x ( + ( -  1  8 ) a )))( statement ( =  k ( variable_initializer_x  3 ))( statement ( =  k ( +  k  3 ))( WHILE ( <  a  10 )( statement ( =  a ( -  a  1 ))( statement ( =  b ( variable_initializer_x ( +  b  10 )))))))))))))
+
+ ###########Parsing successful#############
+

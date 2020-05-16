@@ -1,0 +1,41 @@
+int a 
+a = 0 
+t1 = 3 + 4 
+int d 
+d = t1 
+t2 = d + 3 
+int b 
+b = t2 
+t3 = b + d 
+t4 = t3 - 10 
+t5 = t4 - 7 
+int k 
+k = t5 
+string alpha 
+int i 
+i = 0 
+L1: 
+t6 = i < 20 
+if t6 goto L2
+goto L4 
+L3: 
+t7 = i + 1 
+i = t7 
+goto L1
+L2: 
+t8 = k * b 
+t9 = d + t8 
+d = t9 
+goto L3 
+L4: 
+L1: 
+Something went wrong check pls
+if t6 goto L2
+goto L4
+L3: 
+goto L1
+L2: 
+goto L3
+L4: 
+
+

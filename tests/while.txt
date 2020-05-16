@@ -1,0 +1,44 @@
+t1 = 4 + 5 
+t2 = t1 - 3 
+int a 
+a = t2 
+t3 = 4 * 4 
+t4 = 3 + t3 
+int d 
+d = t4 
+a = 8 
+t5 = 1 - 8 
+t6 = t5 + a 
+int b 
+b = t6 
+int k 
+k = 3 
+t7 = k + 3 
+a = t7 
+L1 : 
+t8 = a < 10 
+iffalse t8 goto L2 
+t9 = a - 1 
+a = t9 
+t10 = b + 10 
+int p 
+p = t10 
+goto L1
+L2:
+
+
+The Intermediate Code after Optimization
+
+b = 1
+a = 6
+L1: 
+t8 = a < 10
+iffalse t8 goto L2
+t9 = a - 1
+a = t9
+t10 = b + 10
+p = t10
+goto L1
+L2: 
+
+

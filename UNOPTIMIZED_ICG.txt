@@ -1,0 +1,20 @@
+int a 
+a = 10 
+t1 = a + 5 
+int b 
+b = t1 
+int i 
+i = 1 
+L1: 
+t2 = i <= 20 
+if t2 goto L2
+goto L4 
+L3: 
+t3 = i + 1 
+i = t3 
+goto L1
+L2: 
+t4 = a + 3 
+b = t4 
+goto L3 
+L4: 

@@ -1,0 +1,21 @@
+	MOV	R0	#10
+	STR	a	R0
+	MOV	R1	#1
+	STR	i	R1
+
+L1:
+	CMP	R1	#20
+	BLE	L2
+	B	L4
+
+L3:
+	ADD	R2	R1	#1	
+	STR	i	R2
+	B	L1
+
+L2:
+	ADD	R3	R0	#3	
+	STR	b	R3
+	B	L3
+
+L4:
