@@ -15,6 +15,8 @@ bash p3/ast.sh
 
 bash run.sh
 
+OUTPUT : 
+
 cleaned code : p12/CLEAN_CODE.cs
 
 ast : p3/AST.txt
